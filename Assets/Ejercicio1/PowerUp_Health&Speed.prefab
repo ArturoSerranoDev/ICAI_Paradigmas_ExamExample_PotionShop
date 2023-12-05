@@ -248,7 +248,6 @@ GameObject:
   - component: {fileID: 6640286146927096023}
   - component: {fileID: 7478654455355799901}
   - component: {fileID: 7301469580511337555}
-  - component: {fileID: 2843007264688694441}
   m_Layer: 0
   m_Name: PowerUp_Health&Speed
   m_TagString: Untagged
@@ -346,19 +345,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &2843007264688694441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3232218972955026016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f106fd386ae8ad4a83db62bd1eb27a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wrappedPowerUp: {fileID: 2298673636434079672, guid: aee35b40e1abf9f418969452b426f6e7, type: 3}
 --- !u!1001 &4371135360858845846
 PrefabInstance:
   m_ObjectHideFlags: 0
