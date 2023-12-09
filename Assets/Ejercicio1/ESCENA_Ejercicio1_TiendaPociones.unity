@@ -1546,6 +1546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 50
   speed: 3
+  mana: 0
 --- !u!114 &1640810056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2136,7 +2137,7 @@ MonoBehaviour:
   healthText: {fileID: 238418006}
   speedText: {fileID: 512589395}
   manaText: {fileID: 1830077994}
-  player: {fileID: 0}
+  player: {fileID: 1640810056}
 --- !u!1001 &2179354948528493887
 PrefabInstance:
   m_ObjectHideFlags: 0
