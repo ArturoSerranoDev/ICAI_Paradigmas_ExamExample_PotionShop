@@ -2074,7 +2074,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &2136778780
 Canvas:
   m_ObjectHideFlags: 0
@@ -2135,8 +2135,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthText: {fileID: 238418006}
   speedText: {fileID: 512589395}
-  manaText: {fileID: 0}
-  playerStats: {fileID: 0}
+  manaText: {fileID: 1830077994}
+  player: {fileID: 0}
 --- !u!1001 &2179354948528493887
 PrefabInstance:
   m_ObjectHideFlags: 0
