@@ -1442,11 +1442,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1640810051}
-  - component: {fileID: 1640810056}
   - component: {fileID: 1640810053}
-  - component: {fileID: 1640810055}
   - component: {fileID: 1640810054}
   - component: {fileID: 1640810052}
+  - component: {fileID: 1640810056}
+  - component: {fileID: 1640810055}
   m_Layer: 0
   m_Name: PLAYER
   m_TagString: Untagged
@@ -1510,7 +1510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa782ae4171d3c640af7d7b40780013c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stats: {fileID: 1640810055}
+  stats: {fileID: 1640810056}
 --- !u!65 &1640810054
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1541,12 +1541,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1640810050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db926472b53a3ca4781b3b67ee1ec520, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a02a25832f260e4095b909e7ea9057a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
-  speed: 3
-  mana: 0
+  stats: {fileID: 1640810056}
 --- !u!114 &1640810056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1556,10 +1554,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1640810050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2e79e3fd2333fa4dbbc93ac5dd4115c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4feb16d7adcc94f4c8f141fce962be1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stats: {fileID: 1640810055}
+  health: 50
+  speed: 3
+  mana: 0
 --- !u!1 &1658832385
 GameObject:
   m_ObjectHideFlags: 0
@@ -2137,7 +2137,7 @@ MonoBehaviour:
   healthText: {fileID: 238418006}
   speedText: {fileID: 512589395}
   manaText: {fileID: 1830077994}
-  player: {fileID: 1640810056}
+  player: {fileID: 1640810055}
 --- !u!1001 &2179354948528493887
 PrefabInstance:
   m_ObjectHideFlags: 0

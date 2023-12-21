@@ -16,7 +16,7 @@ public class ShopPlayer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && selectedPowerUp != null)
         {
             ApplyPowerUp();
-            OnPlayerStatsModified.Invoke(stats);
+            OnPlayerStatsModified?.Invoke(stats);
         }
     }
     private void ApplyPowerUp()
